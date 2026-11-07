@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en">
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz — LearnLoop</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+        <body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">L</span> learnloop</a><nav><a href="index.html">Home</a>
+    <a class="active" href="courses.html">Courses</a><a href="leaderboard.html">Leaderboard</a><a href="index.html#contact">Contact</a></nav><div class="nav-actions"><span class="user-chip">Learning mode</span></div></header>
+<main class="quiz-shell"><a class="back-link" href="courses.html">← Exit quiz</a>
+    <div class="quiz-card">
+        <div class="quiz-top"><div><span class="eyebrow">KNOWLEDGE CHECK</span>
+            <h1 id="quiz-course-title">Web Development Quiz</h1></div>
+            <div class="timer"><span>TIME LEFT</span><b id="timer">05:00</b></div></div>
+            <div class="quiz-progress"><div><span id="question-count">Question 1 of 5</span><span id="quiz-percent">20%</span></div>
+            <div class="progress-track"><span id="quiz-progress-fill"></span></div></div>
+            <div id="question-area"><h2 id="question-text"></h2><div class="answer-list" id="answer-list"></div></div>
+            <div class="quiz-footer"><span id="answer-hint">Choose one answer to continue.</span><button class="btn btn-primary" id="next-question" disabled>Next question →</button></div></div>
+        </main>
+    </body>
+    </html>

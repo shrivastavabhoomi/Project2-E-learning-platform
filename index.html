@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnify — E-learning Platform</title><link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">L</span> learnloop</a>
+<nav><a class="active" href="index.html">Home</a><a href="courses.html">Courses</a><a href="leaderboard.html">Leaderboard</a><a href="#contact">Contact</a></nav>
+<div class="nav-actions"><button class="btn btn-light" data-open-login>Log in</button><a class="btn btn-primary" href="courses.html">Explore courses</a></div>
+</header>
+<main>
+<section class="hero wrap">
+  <div class="hero-copy"><span class="eyebrow">LEARN SOMETHING NEW TODAY</span><h1>Build skills.<br><span>Unlock your future.</span></h1>
+  <p>Learn at your own pace with practical courses, quick quizzes, and a little motivation from your leaderboard position.</p>
+  <div class="hero-actions"><a class="btn btn-primary btn-large" href="courses.html">Explore courses <span>→</span></a><a class="text-link" href="courses.html">Browse learning paths</a></div>
+  <div class="mini-proof"><div class="avatar-stack"><i>A</i><i>R</i><i>S</i></div><span><b>2,400+</b> learners growing their skills</span></div></div>
+  <div class="hero-art"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-card"><div class="art-icon">✦</div><small>YOUR NEXT CHAPTER</small><h3>Keep learning.<br>Keep growing.</h3><div class="art-progress"><span></span></div><small>Course progress <b>72%</b></small></div><div class="float-note note-top">⚡ Daily streak <b>7 days</b></div><div class="float-note note-bottom">✓ Quiz completed <b>+120 XP</b></div></div>
+</section>
+<section class="stats wrap"><div><b>12+</b><span>Expert-led courses</span></div><div><b>8k+</b><span>Quiz attempts</span></div><div><b>92%</b><span>Positive feedback</span></div><div><b>Learn</b><span>At your own pace</span></div></section>
+<section class="section wrap"><div class="section-heading"><div><span class="eyebrow">START EXPLORING</span><h2>Popular learning paths</h2></div><a class="text-link" href="courses.html">View all courses →</a></div><div class="course-grid" id="featured-courses"></div></section>
+<section class="cta wrap"><div><span class="eyebrow">YOUR JOURNEY STARTS HERE</span><h2>Small steps today.<br>Big possibilities tomorrow.</h2><p>Choose a course, learn something useful, and test what you know.</p></div><a class="btn btn-dark btn-large" href="courses.html">Start learning →</a></section>
+<section class="contact wrap" id="contact"><div><span class="eyebrow">GET IN TOUCH</span><h2>We’re here to help.</h2><p>Questions about courses or your learning progress? Send us a message.</p></div><form class="contact-form" id="contact-form"><input required placeholder="Your name"><input required type="email" placeholder="Email address"><textarea required placeholder="How can we help?"></textarea><button class="btn btn-primary">Send message</button><p class="form-message" id="contact-message"></p></form></section>
+</main>
+<footer><a class="brand" href="index.html"><span class="brand-mark">L</span> learnify</a><span>© 2026 Learnify. Learn at your own pace.</span><a href="leaderboard.html">Leaderboard</a></footer>
+<div class="modal-backdrop" id="login-modal"><div class="modal"><button class="modal-close" data-close-login></button><span class="eyebrow">WELCOME BACK</span><h2>Log in to LearnLoop</h2><form id="login-form"><label>Email</label><input type="email" required placeholder="you@example.com"><label>Password</label><input type="password" required placeholder="Enter your password"><button class="btn btn-primary btn-full">Continue</button><p class="form-message" id="login-message"></p></form><small>Demo only: login details are not sent to a server.</small></div></div>
+</body></html>

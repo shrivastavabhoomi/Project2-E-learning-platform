@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses — LearnLoop</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+    <body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">L</span> learnloop</a><nav>
+    <a href="index.html">Home</a><a class="active" href="courses.html">Courses</a><a href="leaderboard.html">Leaderboard</a><a href="index.html#contact">Contact</a></nav>
+    <div class="nav-actions"><button class="btn btn-light" data-open-login>Log in</button></div></header>
+<main class="wrap page-main"><div class="page-title"><span class="eyebrow">THE COURSE LIBRARY</span>
+    <h1>Find your next skill.</h1>
+    <p>Explore beginner-friendly courses and learn one lesson at a time.</p>
+</div>
+<div class="toolbar"><input id="course-search" type="search" placeholder="⌕  Search courses by name or topic..."><select id="level-filter"><option value="all">All levels</option><option>Beginner</option>
+    <option>Intermediate</option><option>Advanced</option></select></div>
+<div class="course-grid" id="all-courses"></div></main>
+<footer><a class="brand" href="index.html"><span class="brand-mark">L</span> learnloop</a><span>© 2026 LearnLoop</span><a href="index.html#contact">Contact</a></footer>
+<div class="modal-backdrop" id="login-modal"><div class="modal"><button class="modal-close" data-close-login></button><span class="eyebrow">WELCOME BACK</span>
+    <h2>Log in to LearnLoop</h2><form id="login-form"><label>Email</label><input type="email" required placeholder="you@example.com"><label>Password</label>
+        <input type="password" required><button class="btn btn-primary btn-full">Continue</button>
+        <p class="form-message" id="login-message"></p></form><small>Demo only: login details are not sent to a server.</small></div>
+    </div>
+</body>
+</html>
